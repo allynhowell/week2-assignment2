@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>addRecipe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body id="top-paragraph"> 
+        <div id="header">
+            <a class="header-link" href="./MyRecipes.html">My Recipes</a>
+            <a class="header-link" href="./addRecipe.html">Add a Recipe</a>
+            <a class="header-link" href="">Search</a>
+            <a class="header-link" href="">About</a>
+        </div>
+        <h1>Add New Recipe</h1>
+
+        <div id="recipe-form">
+            <form>
+                <label for="title">Title</label><br/>
+                <input type="text" name="Title" id="add-title">
+                <br/>
+                <label for="prep-time">Prep Time</label><br/>
+                <input type="text" name="Prep Time" id="add-prep-time">
+                <br/>
+                <label for="cook-time">Cook Time</label><br/>
+                <input type="text" name="Cook Time" id="add-cook-time">
+                <br/>
+            </form>
+        </div>
+
+        <div id="ingredients-form">
+        <h2>Ingredients</h2>
+            <form>
+                <label for="amount">Amount</label><br/>
+                <input type="text" name="Amount" id="ing-amount">
+                <br/>
+                <label for="name">Name</label><br/>
+                <input type="text" name="Name" id="ing-name">
+                <br/>
+                <label for="unit-of-measure">Unit of Measure</label><br/>
+                <input type="text" name="Unit of Measure" id="add-unit">
+                <br/>
+            </form>
+            <br/>
+            <button>+Add Ingredient</button>
+        </div>
+
+        <div id="directions-form">
+        <h2>Directions</h2>
+            <form>
+                <label for="step">Step</label><br/>
+                <input type="text" name="Step" id="add-step">
+            </form>
+            <br/>
+            <button>+Add Step</button>
+        </div>
+
+        <div id="notes-form">
+        <h2>Notes</h2>
+            <input type="text" name="notes" id="add-notes">
+        </div>    
+        <br/>
+        <form>
+            <label for="image">Image</label>
+            <br/>
+            <input type="file" name="add-image" id="add-image">
+            <input type="submit" value="Submit">
+        </form>
+        <br/>
+        <br/>
+        <button>Save</button>
+
+    </body>
+</html>
